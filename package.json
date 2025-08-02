@@ -1,0 +1,18 @@
+{
+  "name": "dependencies",
+  "version": "1.0.0",
+  "bin": {
+    "create-myproject": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
